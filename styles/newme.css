@@ -19,19 +19,18 @@ body {
     position: relative;
 }
 
-.banner{
+.banner {
     position: absolute;
 }
 
 .banner-title {
     width: 525px;
     height: 228px;
-   
     margin: 216px 230px 364px 845px;
     margin-bottom: 20px;
 }
 
-.banner-title > p {
+.banner-title>p {
     color: #151414;
     font-size: 65px;
     font-weight: 700;
@@ -43,7 +42,7 @@ body {
     margin: 0 230px 262px 876px;
 }
 
-.banner-description > p {
+.banner-description>p {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
@@ -51,7 +50,7 @@ body {
 
 }
 
-.btn-primary {
+.btn-header {
     border-radius: 5px;
     background: #F15B22;
     width: 160px;
@@ -59,8 +58,52 @@ body {
     padding: 20px 25px;
     border: 0;
     color: #FFF;
-    font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
     text-align: right;
 }
+
+/* failure section */
+
+.failure {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.failure-content {
+    margin-top: 370px;
+    margin-left: 87px;
+    margin-right: 250px;
+}
+
+.failure-img {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    width: 527.929px;
+    height: 527.929px;
+    margin-top: 140px;
+    margin-left: 200px;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 20px;
+}
+
+.failure-description,
+.list-item {
+    color: #444343;
+}
+
+.failure-description {
+    width: 416px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.failure-list{
+    margin-top: 0px;
+}   
